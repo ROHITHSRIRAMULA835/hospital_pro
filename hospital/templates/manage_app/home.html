@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'manage_app/styles_h.css' %}">
+</head>
+<body>
+<center>
+    <img src="{% static 'manage_app/home.jpg' %}" alt="image">
+    <a href="{% url 'form_page' %}">ADMIT THE PATIANT</a>
+    <a href="{% url 'pationts_page' %}">PATIANT LIST</a>
+</center>
+</body>
+</html>

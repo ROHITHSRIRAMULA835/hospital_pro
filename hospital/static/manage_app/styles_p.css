@@ -1,0 +1,58 @@
+/* Centering the body */
+body {
+     
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url("../manage_app/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    font-family: Arial, sans-serif; /* Change to preferred font */
+    text-align: center; /* Center all text */
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0;
+    padding: 50px 0; /* Space at the top and bottom */
+}
+
+/* Heading styles */
+h1 {
+    color: #2c3e50; /* Dark blue color for the heading */
+    margin-bottom: 30px; /* Space below the heading */
+}
+
+/* Table styling */
+table {
+    width: 80%; /* Width of the table */
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse; /* Collapse table borders */
+    background-color: white; /* White background for the table */
+}
+
+/* Table header styles */
+th {
+    background-color: #3498db; /* Blue background for headers */
+    color: white; /* White text */
+    padding: 10px; /* Padding in header cells */
+}
+
+/* Table cell styles */
+td {
+    padding: 10px; /* Padding in data cells */
+    border: 1px solid #ccc; /* Light gray border */
+}
+
+/* Link styling */
+a {
+    display: inline-block; /* Make link a block element for spacing */
+    margin-top: 20px; /* Space above the link */
+    text-decoration: none; /* Remove underline */
+    color: #3498db; /* Blue color */
+}
+
+/* Link hover effect */
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

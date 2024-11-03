@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url("../manage_app/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* CSS for image */
+img {
+    width: 300px;  /* Adjust width as per requirement */
+    height: auto;
+    margin-bottom: 20px; /* Space below the image */
+    display: block; /* Ensure the image is treated as a block element */
+    margin-left: auto; /* Center the image */
+    margin-right: auto; /* Center the image */
+}
+
+/* CSS for links */
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* Change link appearance on hover */
+a:hover {
+    background-color: #2980b9;
+}
+
+/* Centering text and content */
+center {
+    text-align: center;
+    margin-top: 50px;
+}

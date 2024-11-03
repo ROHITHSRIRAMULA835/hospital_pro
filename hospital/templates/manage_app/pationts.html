@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'manage_app/styles_p.css' %}">
+</head>
+<body>
+    <center>
+    <h1>PATIONT LIST</h1>
+    <table border="3">
+        <thead>
+            <tr>
+                <th>NAME OF THE PATIONT</th>
+                <th>AGE OF THE PATIONT</th>
+                <th>DESEASE OF THE PATIONT</th>
+                <th>PATIONT type</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in data %}
+            <tr>
+                <td>{{i.name}}</td>
+                <td>{{i.age}}</td>
+                <td>{{i.desease}}</td>
+                <td>{{i.pationt_type}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="{% url 'home_page' %}">GO TO HOME</a>
+    </center>
+</body>
+</html>
